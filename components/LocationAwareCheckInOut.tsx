@@ -123,9 +123,9 @@ export default function LocationAwareCheckInOut({ userId, userName = 'User' }: L
       
       // Update status message
       if (inside) {
-        setStatusMessage(`Inside ${closestGeofence?.name || 'geofence'}`);
+        setStatusMessage(`Inside ${closestGeofence || 'geofence'}`);
       } else {
-        setStatusMessage(`Outside geofence (${minDistance.toFixed(0)}m from ${closestGeofence?.name || 'nearest point'})`);
+        setStatusMessage(`Outside geofence (${minDistance.toFixed(0)}m from ${closestGeofence || 'nearest point'})`);
       }
       
       // Track location for analytics

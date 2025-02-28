@@ -88,7 +88,6 @@ export async function POST(request: Request) {
           quantities: JSON.stringify(quantities),
           prices: JSON.stringify(prices),
           shipping_details: JSON.stringify(shipping),
-          total_amount: prices.reduce((sum, price, index) => sum + (price * (quantities[index] || 1)), 0),
           is_test: isTest,
           transaction_date: new Date().toISOString()
         },

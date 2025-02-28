@@ -42,37 +42,9 @@ export default function Home() {
                 </Link>
               </Card>
               
-              <Card className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-950/50 dark:to-emerald-950/50 border-green-100 dark:border-green-900">
-                <div className="flex items-center mb-3">
-                  <div className="w-10 h-10 rounded-full bg-green-100 dark:bg-green-900 flex items-center justify-center mr-3">
-                    <Clock className="w-5 h-5 text-green-600 dark:text-green-400" />
-                  </div>
-                  <h3 className="font-semibold text-lg">Attendance Tracking</h3>
-                </div>
-                <p className="text-sm text-muted-foreground mb-4">
-                  Automatic check-in/out detection with detailed time tracking and attendance history.
-                </p>
-                <Link href="/test-checkout" className="text-sm text-green-600 dark:text-green-400 flex items-center hover:underline">
-                  Try test checkout
-                  <ArrowRight className="w-4 h-4 ml-1" />
-                </Link>
-              </Card>
               
-              <Card className="bg-gradient-to-br from-purple-50 to-violet-50 dark:from-purple-950/50 dark:to-violet-950/50 border-purple-100 dark:border-purple-900">
-                <div className="flex items-center mb-3">
-                  <div className="w-10 h-10 rounded-full bg-purple-100 dark:bg-purple-900 flex items-center justify-center mr-3">
-                    <Box className="w-5 h-5 text-purple-600 dark:text-purple-400" />
-                  </div>
-                  <h3 className="font-semibold text-lg">3D Dashboard</h3>
-                </div>
-                <p className="text-sm text-muted-foreground mb-4">
-                  Interactive 3D visualization of attendance data with real-time updates.
-                </p>
-                <Link href="/3d-dashboard" className="text-sm text-purple-600 dark:text-purple-400 flex items-center hover:underline">
-                  View 3D dashboard
-                  <ArrowRight className="w-4 h-4 ml-1" />
-                </Link>
-              </Card>
+              
+              
             </div>
           </div>
           
