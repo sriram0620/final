@@ -25,8 +25,8 @@ export default function EnhancedGeofenceMonitor({ userId }: { userId: string }) 
   const defaultGeofence: Geofence = {
     id: 'default',
     name: 'Primary Monitoring Zone',
-    lat: 12.835239990526295,
-    lng: 80.13544605129297,
+    lat: 12.838857357767454,
+    lng: 80.13777204197375,
     radius: 200,
     created_at: new Date().toISOString()
   };
